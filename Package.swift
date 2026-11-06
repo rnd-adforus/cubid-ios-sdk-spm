@@ -1,7 +1,7 @@
 // swift-tools-version:5.9
 import PackageDescription
 
-let versionInfo = "1.3.4"
+let versionInfo = "1.4.0"
 
 let package = Package(
     name: "CuBidKit",
@@ -19,7 +19,7 @@ let package = Package(
         .binaryTarget(
             name: "CuBidKit",
             url: "https://nexus.adforus.com/repository/cubid_iOS/CuBid/\(versionInfo)/CuBidKit-SPM.zip",
-            checksum: "48ad4116a6216c13deb2da1056293a015cc9a748ee258b8eb5c8d71d58089485"
+            checksum: "938b21671d5a74e0dc72e788e4a7e182f659e933e7f30b6f9c9e8fd5fc472dc6"
         ),
         .target(
             name: "CuBidKitResources",
